@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Marketplace - Buy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <img src="logo2.jpg" height="100"/>
+        <nav>
+            <ul>
+                <li><a href="website.html">Home</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="sell.html">Sell</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <h2>Buy a Property</h2>
+    <p>Explore our listings and find your dream home. Use the filters below to narrow your search.</p>
+    <!-- Filters for searching (example) -->
+    <form>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+        <label for="price">Max Price:</label>
+        <input type="number" id="price" name="price">
+        <label for="type">Property Type:</label>
+        <select id="type" name="type">
+            <option value="house">House</option>
+            <option value="apartment">Apartment</option>
+            <option value="Cottages">Cottages</option>
+            <option value="villas">villas</option>
+        </select>
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- Example Listings -->
+    <div class="listing">
+        <img src="cottage.jpeg" alt="House Image">
+        <h2>Spacious Cottages</h2>
+        <p>Location: lonovala,maharastra</p>
+        <p>Price: 1,34,00,000</p>
+    </div>
+    <div class="listing">
+        <img src="cozy.jpeg" alt="House Image">
+        <h2>Cozy City Apartment</h2>
+        <p>Location: Secundrabad,road no-33e,hyderabad</p>
+        <p>Price: 1,50,00,000</p>
+    </div>
+    <!-- Add more listings as needed -->
+</div>
+
+<footer>
+    <p>&copy; 2024 Real Estate Marketplace. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
